@@ -3,56 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>simpleware</title>
+    <title>999CLUB</title>
+
     <style>
         body {
             margin: 0;
             background-color: #0d0d0d;
             color: white;
             font-family: Arial, sans-serif;
-            height: 100vh;
+
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
+
+            height: 100vh;
+            gap: 20px;
         }
 
         h1 {
-            margin-top: 40px;
             font-size: 48px;
-            text-align: center;
-            letter-spacing: 2px;
-        }
-
-        .center-button {
-            margin-bottom: 40px;
+            letter-spacing: 3px;
+            margin-bottom: 30px;
         }
 
         button {
-            padding: 15px 40px;
+            width: 250px;
+            padding: 15px;
             font-size: 20px;
+
             border: none;
-            border-radius: 8px;
+            border-radius: 10px;
+
             cursor: pointer;
-            background-color: #5865F2;
-            color: white;
             transition: 0.2s;
+            color: white;
         }
 
-        button:hover {
+        .youtube-btn {
+            background-color: #ff0000;
+        }
+
+        .youtube-btn:hover {
+            background-color: #cc0000;
+        }
+
+        .simpleware-btn {
+            background-color: #5865F2;
+        }
+
+        .simpleware-btn:hover {
             background-color: #4752C4;
         }
     </style>
 </head>
+
 <body>
 
-    <h1>simpleware</h1>
+    <h1>999CLUB</h1>
 
-    <div class="center-button">
-        <button onclick="window.location.href='https://discord.gg/wwnKeJ7m'">
-            Dołącz na Discord
-        </button>
-    </div>
+    <button 
+        class="youtube-btn"
+        onclick="window.location.href='https://www.youtube.com/@official999club'">
+        YouTube
+    </button>
+
+    <button 
+        class="simpleware-btn"
+        onclick="window.location.href='https://link-target.net/337328/9ware-20-2460'">
+        Simpleware
+    </button>
 
 </body>
 </html>
