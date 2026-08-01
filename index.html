@@ -55,14 +55,35 @@
         .simpleware-btn:hover {
             background-color: #4752C4;
         }
+
+        /* Button animation */
+        .youtube-btn,
+        .simpleware-btn {
+            animation: float 3s ease-in-out infinite;
+        }
+
+        .simpleware-btn {
+            animation-delay: 0.5s;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-5px);
+            }
+        }
+
     </style>
 </head>
 
 <body>
 
     <h1>999CLUB</h1>
-    <h2>Version: 26.9.0</h2>
-    <h2>Last update: 1.07.2026</h2>
+    <h2>Version: 26.10.1</h2>
+    <h2>Last update: 1.08.2026</h2>
 
     <button 
         class="youtube-btn"
